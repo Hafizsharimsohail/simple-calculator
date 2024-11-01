@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Calculator</title>
 </head>
+
 <body>
     <form action="" id="display">
         <input type="text" id="show" value="" placeholder="0">
         <br>
         <input type="button" id="sym" class="btn" value="AC" onclick="display.show.value = '' ">
-        <input type="button"  id="sym" class="btn" value="DEL" onclick="display.show.value = display.show.value.toString().slice(0, -1) " >
+        <input type="button" id="sym" class="btn" value="DEL"
+            onclick="display.show.value = display.show.value.toString().slice(0, -1) ">
         <input type="button" id="sym" class="btn" value="." onclick="display.show.value += '.' ">
         <input type="button" id="sym" class="btn" value="%" onclick="display.show.value += '%' ">
         <br>
@@ -38,6 +40,7 @@
         <input type="button" id="sym" class="btn" value="+" onclick="display.show.value += '+' ">
         <br>
     </form>
-        <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
 </body>
+
 </html>
