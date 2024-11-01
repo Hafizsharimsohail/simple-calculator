@@ -1,5 +1,7 @@
 body{
    background-image: url(img.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
     }
     #display{
         width: 370px;
